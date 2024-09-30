@@ -25,7 +25,9 @@ export const HeaderDashboard = ({ user, navigations, onLogout}: HeaderProps) => 
     <div className="container mx-auto flex justify-between items-center">
       <div className="flex items-center space-x-4">
         <Image src="https://webcdn.asafe.com/assets/img/asafe-logo-new.png?v=20240916.2"
-            className="mx-auto h-10 w-auto" alt="Asafe" />
+            className="mx-auto h-10 w-auto" alt="Asafe"
+            width={200} 
+            height={100} />
         <div className="text-white text-xl font-bold hidden md:block ">Dashboard</div>
       </div>
       <nav>

@@ -22,6 +22,8 @@ export const Login = ({
             alt="asafe"
             src="https://webcdn.asafe.com/assets/img/asafe-logo-new.png?v=20240916.2"
             className="mx-auto h-10 w-auto"
+            width={200} 
+            height={100}
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
             Sign in to your account
