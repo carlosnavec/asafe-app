@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "name": "Traffic Barriers",
+            "usage": "Vehicular",
+            "impact_resistance": 8,
+            "visibility": 9,
+            "material": "Plastic",
+            "cost": 500,
+            "durability_years": 10,
+            "date": "2021-01-01"
+        },
+        {
+            "name": "Pedestrian Barriers",
+            "usage": "Pedestrian",
+            "impact_resistance": 5,
+            "visibility": 7,
+            "material": "Steel",
+            "cost": 300,
+            "durability_years": 8,
+            "date": "2021-02-01"
+        },
+        {
+            "name": "Safety Fencing",
+            "usage": "Perimeter",
+            "impact_resistance": 7,
+            "visibility": 6,
+            "material": "Aluminum",
+            "cost": 600,
+            "durability_years": 12,
+            "date": "2022-03-01"
+        },
+        {
+            "name": "Safety Bars",
+            "usage": "Fall Protection",
+            "impact_resistance": 9,
+            "visibility": 5,
+            "material": "Steel",
+            "cost": 400,
+            "durability_years": 15,
+            "date": "2023-07-01"
+        },
+        {
+            "name": "Custom Solutions",
+            "usage": "Varied",
+            "impact_resistance": 7,
+            "visibility": 8,
+            "material": "Custom",
+            "cost": 1000,
+            "durability_years": 20,
+            "date": "2023-10-01"
+        }
+    ]
+}
