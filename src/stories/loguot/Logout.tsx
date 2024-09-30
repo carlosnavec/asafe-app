@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "stories/button/Button";
 
 
@@ -19,7 +20,6 @@ export const Logout = ({
   onLogout,
   onGoToDashboard,
   user,
-  ...props
 }: LogoutProps) => {
   const customBackgroundColor = backgroundColor ? { backgroundColor } : {};
 
@@ -27,7 +27,7 @@ export const Logout = ({
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8"
     style={customBackgroundColor}>
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <img
+          <Image
             alt="Your Company"
             src="https://webcdn.asafe.com/assets/img/asafe-logo-new.png?v=20240916.2"
             className="mx-auto h-10 w-auto"

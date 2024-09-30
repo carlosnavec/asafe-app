@@ -1,4 +1,5 @@
-import { Chart, ChartTypeRegistry, BarElement, CategoryScale, LinearScale, Tooltip, Legend } from 'chart.js/auto';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { Chart, ChartTypeRegistry } from 'chart.js/auto';
 import { useEffect, useRef } from "react";
 
 export interface ChartProps {
@@ -67,7 +68,7 @@ export const CustomChart = ({
         chartRef.current.destroy();
       }
     };
-  }, [dataSets]);
+  }, [borderWidth, customBackgroundColor, customColor, dataSets, label, productNames, type]);
 
   return <canvas ref={chartContainerRef} className="w-full h-96" />;
 };

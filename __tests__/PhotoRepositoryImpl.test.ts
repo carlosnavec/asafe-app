@@ -16,7 +16,7 @@ describe('PhotoRepositoryImpl', () => {
   it('should return data if the API URL is valid', async () => {
     process.env.API_URL_PHOTOS = 'https://jsonplaceholder.typicode.com/photos';
     const photos: Photo[] = await photoRepository.getPhotos();
-    expect(photos).toBeDefined();
+    expect(photos).toBeTruthy();
     expect(photos.length).toBeGreaterThan(0);
   });
 });

@@ -9,7 +9,6 @@ export interface TableProps {
 export const Table = ({
   headers,
   products,
-  ...props
 }: TableProps) => {
 
   return (
