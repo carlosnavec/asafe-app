@@ -28,7 +28,7 @@ export const DefaultTable: Story = {
             material: 'Material 1',
             cost: 100,
             durability_years: 10,
-            date: new Date()
+            date: '10-10-2021'
         },
         {
             name: 'Product 2',
@@ -38,7 +38,7 @@ export const DefaultTable: Story = {
             material: 'Material 2',
             cost: 200,
             durability_years: 20,
-            date: new Date()
+            date: '10-10-2022'
         },
     ],
 

@@ -6,5 +6,5 @@ export interface Product {
   material: string;
   cost: number;
   durability_years: number;
-  date: Date
+  date: string
 }
