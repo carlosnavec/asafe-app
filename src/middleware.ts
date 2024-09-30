@@ -3,7 +3,7 @@ export { default } from "next-auth/middleware"
 import { NextResponse, NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
-  const isAuthenticated = request.cookies.get('next-auth.session-token')
+  const isAuthenticated = request.cookies.get('next-auth.session-token') || request.cookies.get('__Secure-next-auth.session-token');
  
   if (isAuthenticated) {
     return NextResponse.next()
